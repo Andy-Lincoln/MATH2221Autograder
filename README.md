@@ -5,7 +5,7 @@ This is an automated grading system for MATLAB programming assignments. The syst
 ## Directory Structure
 
 ```
-Assignment3_grader/
+Assignment3/
 ├── autograde.m              # Main grading script
 ├── testcases/              # Test cases for different questions
 │   ├── testcases_checkValid.m

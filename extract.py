@@ -70,6 +70,6 @@ def organize_submissions(source_dir, output_dir):
 # Usage
 if __name__ == "__main__":
     # Replace these paths with your actual paths
-    source_directory = "D:/code_LabA"
-    output_directory = "D:/sectionA"
+    source_directory = "D:/MATH2221GradeScope/sectionA"
+    output_directory = "D:/MATH2221GradeScope/organized_sectionA"
     organize_submissions(source_directory, output_directory)

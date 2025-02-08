@@ -8,7 +8,7 @@ function autograde(questionName)
     addpath(genpath(baseDir));
 
     % Path to the folder containing student submissions of each section
-    submissionsPath = fullfile(baseDir, 'SectionA');
+    submissionsPath = fullfile(baseDir, 'organized_sectionA');
     
     % Check if submissions folder exists
     if ~exist(submissionsPath, 'dir')

@@ -20,7 +20,7 @@ Assignment3/
 |   └── Lab Assignment 3_1155123458_attempt_2025-02-06.zip
 |   └── Lab Assignment 3_1155123459_attempt_2025-02-06.zip
 |   ...
-└── Organized_sectionA/    # Processed student submissions
+└── organized_sectionA/    # Processed student submissions
     ├── 1155123456/       # Auto-generated student folders
     │   └── checkValid.m
     |   └── checkWin.m
@@ -47,7 +47,7 @@ Assignment3/
    - Extract all submissions
    - Organize files into student ID folders
    - Handle both zipped files and zipped folders
-   - Create the final structure in `Organized_sectionA`
+   - Create the final structure in `organized_sectionA`
 
 ## Grading Process
 

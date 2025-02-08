@@ -29,6 +29,11 @@ Assignment3/
    - Each student's work should be in a folder named with their ID number
    - Each folder should contain their MATLAB function files
 
+Remark
+We request students to upload a zip file containing all matlab function files before lab and then extract all folder by extractSubmission.py.
+Since the downloaded file from blackboard contains ID, we don't need ask them to create specific name on their folder. 
+Whether the student compress all .m scripts into a zip file or compress a folder containing all scripts, the python script will extract it and output a folder containing students' folders shown as first "folder structure".
+
 
 ## Usage
 

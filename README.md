@@ -19,8 +19,16 @@ Assignment3/
 └── Organized_sectionA/    # Processed student submissions
     ├── 1155123456/       # Auto-generated student folders
     │   └── checkValid.m
+    |   └── checkWin.m
+    |   └── q1.m
+    |   └── q2.m
+    |   └── q3.m
     └── 1155123457/
-        └── checkValid.m
+    |   └── checkValid.m
+    |   └── checkWin.m
+    |   └── q1.m
+    |   └── q2.m
+    |   └── q3.m
 ```
 
 ## Setup Process

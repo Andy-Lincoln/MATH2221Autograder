@@ -1,4 +1,4 @@
-import os
+inimport os
 import zipfile
 import re
 import shutil
@@ -70,6 +70,6 @@ def organize_submissions(source_dir, output_dir):
 # Usage
 if __name__ == "__main__":
     # Replace these paths with your actual paths
-    source_directory = "D:/Assignment3_grader/code_LabA"
-    output_directory = "D:/Assignment3_grader/Organized_code_LabA"
+    source_directory = "D:/code_LabA"
+    output_directory = "D:/sectionA"
     organize_submissions(source_directory, output_directory)

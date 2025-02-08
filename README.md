@@ -16,6 +16,10 @@ Assignment3/
 │   └── runTests_checkWin.m
 ├── sectionA/              # Raw submissions downloaded from Blackboard
 │   └── Lab Assignment 3_1155123456_attempt_2025-02-06.zip
+|   └── Lab Assignment 3_1155123457_attempt_2025-02-06.zip
+|   └── Lab Assignment 3_1155123458_attempt_2025-02-06.zip
+|   └── Lab Assignment 3_1155123459_attempt_2025-02-06.zip
+|   ...
 └── Organized_sectionA/    # Processed student submissions
     ├── 1155123456/       # Auto-generated student folders
     │   └── checkValid.m

@@ -1,4 +1,4 @@
-function testCases = test_checkValid()
+function testCases = testcases_checkValid()
     testCases = {
         % Valid case (should return 1)
         {zeros(3), 1, 1, 1};

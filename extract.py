@@ -46,7 +46,7 @@ def has_matlab_files(filepath):
 
 def organize_submissions(source_dir, output_dir):
     if os.path.exists(output_dir):
-        raise Exception(f"Output directory {output_dir} already exists. Please remove it first.")
+        raise Exception(f"Output directory {output_dir} already exists. You can use it directly or delete it to start fresh.")
     
     os.makedirs(output_dir)
     

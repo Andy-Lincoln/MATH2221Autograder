@@ -1,0 +1,7 @@
+s=0;
+n=1:Inf
+while s<
+    s=s+1/n;
+    s>=10;
+end
+n

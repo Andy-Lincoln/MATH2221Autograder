@@ -1,4 +1,4 @@
-inimport os
+import os
 import zipfile
 import re
 import shutil

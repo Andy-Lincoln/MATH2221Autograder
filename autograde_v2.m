@@ -8,7 +8,7 @@ function autograde_v2(questionName)
     addpath(genpath(baseDir));
 
     % Path to the folder containing student submissions of each section
-    submissionsPath = fullfile(baseDir, 'organized_sectionC');
+    submissionsPath = fullfile(baseDir, 'organized_sectionB');
     
     % Check if submissions folder exists
     if ~exist(submissionsPath, 'dir')
@@ -49,6 +49,7 @@ function autograde_v2(questionName)
                 score = 0;
             else
                 % Copy student's script to current directory temporarily
+                disp(studentId);
                 copyfile(fullfile(studentPath, [questionName '.m']), [questionName '.m']);
 
                 try

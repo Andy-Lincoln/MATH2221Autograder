@@ -95,6 +95,6 @@ def organize_submissions(source_dir, output_dir):
     print(f"Total number of submissions processed: {len([d for d in os.listdir(output_dir) if os.path.isdir(os.path.join(output_dir, d))])}")
 
 if __name__ == "__main__":
-    source_directory = "D:/MATH2221GradeScope/sectionC"
-    output_directory = "D:/MATH2221GradeScope/organized_sectionC"
+    source_directory = "D:/MATH2221GradeScope/sectionB"
+    output_directory = "D:/MATH2221GradeScope/organized_sectionB"
     organize_submissions(source_directory, output_directory)

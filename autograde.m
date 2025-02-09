@@ -8,7 +8,7 @@ function autograde(questionName)
     addpath(genpath(baseDir));
 
     % Path to the folder containing student submissions of each section
-    submissionsPath = fullfile(baseDir, 'organized_sectionC');
+    submissionsPath = fullfile(baseDir, 'organized_sectionB');
     
     % Check if submissions folder exists
     if ~exist(submissionsPath, 'dir')
@@ -48,6 +48,7 @@ function autograde(questionName)
                 fprintf('ERROR: %s.m not found for student %s\n', questionName, studentId);
                 score = 0;
             else
+                disp(studentId);
                 runTestsFunc = str2func(['runTests_' questionName]);
                 score = runTestsFunc(testCases);
             end

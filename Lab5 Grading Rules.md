@@ -7,7 +7,7 @@ Q4(a)
 | F | Critical Failures | < 3 points |
 |   | - Program crashes on execution |  |
 |   | - Presence of infinite loops |  |
-|   | - Code does not compile, suca as missing 'end' for control structure |  |
+|   | - Code does not compile, such as missing 'end' for control structure |  |
 | D | Contains logical errors: | 5 points |
 |   | - mainly incorrect handling of p > 100 |  |
 |   | - In detail, it fails to properly adjust chutes/ladders after overshoots |  |

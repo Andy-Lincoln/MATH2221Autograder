@@ -17,5 +17,5 @@ Q4(a)
 |   | - redundant ';' after end |  |
 | A | Complete Implementation: | 10 points |
 |   | - Successfully passes all test cases |  |
-|   | - Correct game logic implementation |  |
+|   | - Perfect program  |  |
 

@@ -11,7 +11,7 @@ Q4(a)
 | D | Contains logical errors: | 5 points |
 |   | - mainly incorrect handling of p > 100 |  |
 |   | - In detail, it fails to properly adjust chutes/ladders after overshoots |  |
-| C | Minor Implementation Issues: | 8 points |
+| C | Minor Implementation Issues: | 8-9 points |
 |   | - Wrong starting position (starts from 0 instead of 1) |  |
 |   | - no end for function |  |
 |   | - redundant ';' after end |  |

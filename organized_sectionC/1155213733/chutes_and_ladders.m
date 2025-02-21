@@ -1,15 +1,10 @@
 function n = chutes_and_ladders()
 n = 0;
 p = 1;
-global INPUT_VALUES INPUT_COUNTER;
-    INPUT_VALUES = [5 3 5 3 6 6 6 3 3 2 5 6 6 4 4 1 6 3 2 6 5 6 2 5 4];
-    INPUT_COUNTER = 1;
-    randi = @mock_randi;
 while p~=100
     d = randi(6);
     p=p+d;
     n=n+1;
-    fprintf('%d th rolling %d and move to %d\n', n, d, p);
 if p>100
     p=200-p;
 end
@@ -52,15 +47,4 @@ elseif p==95
 elseif p==98
     p=78;
 end
-end
-end
-
-
-function val = mock_randi(~)
-    global INPUT_VALUES INPUT_COUNTER;
-    if INPUT_COUNTER > length(INPUT_VALUES)+1
-        error('Ran out of test inputs - possible infinite loop');
-    end
-    val = INPUT_VALUES(INPUT_COUNTER);
-    INPUT_COUNTER = INPUT_COUNTER + 1;
 end

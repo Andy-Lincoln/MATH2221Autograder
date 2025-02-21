@@ -82,7 +82,7 @@ function autograde(questionName)
     fprintf('\nGRADING SUMMARY\n');
     fprintf('=====================================\n');
     for i = 1:numStudents
-        fprintf('Student %s: %0.2f/7\n', results(i).id, results(i).score);
+        fprintf('Student %s: %0.2f\n', results(i).id, results(i).score);
     end
     fprintf('\nResults have been saved to grading_results_%s_%s.csv\n', questionName, timestamp);
 end

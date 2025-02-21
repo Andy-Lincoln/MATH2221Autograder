@@ -1,14 +1,8 @@
 function n=chustes_and_ladders()
 p=0;
 n=0;
-global INPUT_VALUES INPUT_COUNTER;
-    INPUT_VALUES = [4 3 4 1 6 5 5 5 3 4 4 4 2 2 3 2 5 6 1 4 1 5 6 1 6 1 5 5 4 6 6 4 1 2 2 1 1 4 6 3];
-    INPUT_COUNTER = 1;
-    randi = @mock_randi;
-
 while p~=100
     d=randi(6);
-    disp(d);
     p=p+d;
     n=n+1;
     if p>100
@@ -52,17 +46,6 @@ while p~=100
     elseif p==98
         p=78;
     end
-end
-end
-
-
-function val = mock_randi(~)
-    global INPUT_VALUES INPUT_COUNTER;
-    if INPUT_COUNTER > length(INPUT_VALUES)+1
-        error('Ran out of test inputs - possible infinite loop');
-    end
-    val = INPUT_VALUES(INPUT_COUNTER);
-    INPUT_COUNTER = INPUT_COUNTER + 1;
 end
         
     

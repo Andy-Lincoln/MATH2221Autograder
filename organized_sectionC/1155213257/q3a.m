@@ -1,0 +1,1 @@
+t=linspace(0,2*pi,100);T=meshgrid(t);X=(sin(T)+2*sin(2*T));Y=(cos(T)-2*cos(2*T));Z=(-sin(3*T));figure;surf(X,Y,Z,'EdgeColor','b');axis equal

@@ -1,0 +1,5 @@
+theta = linspace(0,12*pi, 2000);
+r = exp(sin(theta))- 2*cos(4*theta)+ (sin((2*theta-pi)/24)).^5;
+
+polarplot(theta, r, 'LineStyle', '-', 'Color', [254, 141, 3]/255);
+title('Polar Plot of r(theta)');

@@ -1,0 +1,31 @@
+1155210941
+
+n =
+
+    81
+
+Test case 1: Failed (Expected 38, got 81)
+
+n =
+
+    51
+
+Test case 2: Failed (Expected 27, got 51)
+
+n =
+
+    55
+
+Test case 3: Failed (Expected 40, got 55)
+
+n =
+
+   298
+
+Test case 4: Failed (Expected 44, got 298)
+
+n =
+
+    55
+
+Test case 5: Failed (Expected 67, got 55)

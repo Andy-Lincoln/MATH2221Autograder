@@ -1,7 +1,0 @@
-function v=checkValid(M,i,j)
-if i~= 1,2,3
-    disp("Invalid i")
-else if j~=1,2,3
-        disp("Invalid j")
-    else if (M,i,j)~=0
-            disp(

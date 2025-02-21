@@ -9,8 +9,8 @@ Q4(a)
 |   | - Presence of infinite loops |  |
 |   | - Code does not compile |  |
 | D | Contains logical errors: | 5 points |
-|   | - Incorrect handling of p > 100 |  |
-|   | - ~10% of programs fail to properly adjust chutes/ladders after overshoots |  |
+|   | - mainly incorrect handling of p > 100 |  |
+|   | - In detail, it fails to properly adjust chutes/ladders after overshoots |  |
 | C | Minor Implementation Issues: | 8 points |
 |   | - Wrong starting position (starts from 0 instead of 1) |  |
 | A | Complete Implementation: | 10 points |

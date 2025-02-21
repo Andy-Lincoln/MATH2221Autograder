@@ -43,9 +43,7 @@ function autograde_v2(questionName)
             else
                 disp(studentId);
                 
-                %% we revise the original code to add mock_randi function
-                
-                % Read and keep the original code for future restoration
+                % Read and modify the file
                 originalFile = fullfile(studentPath, 'chutes_and_ladders.m');
                 originalCode = fileread(originalFile);
                 
@@ -93,6 +91,8 @@ function autograde_v2(questionName)
                     end
                 end
                 
+                % Debug output
+                fprintf('Control structures count for student %s: %d\n', studentId, controlCount);
                 
                 % Add missing end statements if needed
                 while controlCount > 0
@@ -100,13 +100,6 @@ function autograde_v2(questionName)
                     controlCount = controlCount - 1;
                 end
                 
-                % For debugging purposes, save the modified code to a file
-                if studentId == '1155202380'
-                    fidDebug = fopen('debug.txt', 'w');
-                    fprintf(fidDebug, '%s', modifiedCode);
-                    fclose(fidDebug);
-                end
-
                 % Save modified code temporarily
                 studentFid = fopen(originalFile, 'w');
                 fprintf(studentFid, '%s', modifiedCode);
